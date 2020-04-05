@@ -35,7 +35,7 @@ a = list(Slovo.lower())
 print(a)
 b = 0
 
-# СЕЙЛООООР МУУУУУУУУУУНекрекр
+# СЕЙЛООООР МУУУУУУУУУУН
 # for key in Letter_rU:
 #     if key == a[b]:
 #         print("Da")
