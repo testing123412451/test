@@ -28,17 +28,13 @@ Letter_rU = {}
 # Вызов функции для слияния списков в словарь ^
 slovar(letRu,letEN)
 
-Slovo = "Артем"
+Slovo = input()
 # Slovo.lower()
 # print(Slovo)
 a = list(Slovo.lower())
 print(a)
-b = 0
-
-# СЕЙЛООООР МУУУУУУУУУУН
-# for key in Letter_rU:
-#     if key == a[b]:
-#         print("Da")
-#         b = b + 1
-#     else:
-#         print("nO")
+s ,b = '',''
+for i in a:
+   b = Letter_rU.get(i) 
+   s = s + b
+print(s.title())
